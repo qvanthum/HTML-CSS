@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Veebileht</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Pealkiri 1</h1>
+<table>
+    <tr>
+        <td>
+            TABELI 1. veerg
+            <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg" alt="Italian Trulli">
+        </td>
+        <td>
+            TABELI 2. veerg
+            <p>TEKSTILÕIK</p>
+        </td>
+    </tr>
+
+</table>
+
+
+
+</body>
+</html>
