@@ -5,23 +5,34 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h1>Pealkiri 1</h1>
-<table>
-    <tr>
-        <td>
-            TABELI 1. veerg
-            <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg" alt="Italian Trulli">
-        </td>
-        <td>
-            TABELI 2. veerg
-            <p>TEKSTILÕIK</p>
-        </td>
-    </tr>
-
-</table>
-
-
-
+    <h1>Broneerimine</h1>
+    <input type="text" placeholder="Nimi">
+    <br>
+    <input type="text" placeholder="Kuupäev">
+    <br>
+    <label for="algus">Alates</label>
+    <select name="algus" id="algus">
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+    </select> 
+    <br>
+    <label for="lopp">Kuni</label>
+    <select name="lopp" id="lopp">
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+    </select> 
+    <br>
+    <input type="button" value="Broneeri">
+    </input>
 </body>
 </html>
